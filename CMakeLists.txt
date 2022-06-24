@@ -8,6 +8,8 @@ set(HEADER_FILES"
 set(SOURCE_FILES "base.cpp" "optionn.cpp" "err_inffo_base.cpp"
                  "err_info_base_list.cpp" "mmgr.cpp" "mmgr_dbg.cpp" "err_info_list.cpp"
                  "position.cpp" )
+                 "err_info_base_list.cpp" "mmgr.cpp" "mmgr_dbg.cpp"
+                  )
 
 add_library(${PROJECT_NAME} SHARED ${HEADER_FILES} ${SOURCE_FILES})
 install(TARGETS ${PROJECT_NAME} DESTINATION ${GME_INSTALL_LIB_DIR})
