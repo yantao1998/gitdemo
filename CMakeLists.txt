@@ -7,7 +7,7 @@ set(HEADER_FILES"
     "gme_alloc.hxx")
 
 set(SOURCE_FILES "base.cpp" "option.cpp" "err_info_base.cpp"
-                 "err_info_base_list.cpp" "mmgr.cpp" "mmgr_dbg.cpp" "err_info_list.cpp"
+                 "err_info_base_list.cpp" "mmgr.cpp" "err_info_list.cpp"
                  "position.cpp" "errmsg.cpp")
 
 add_library(${PROJECT_NAME} SHARED ${HEADER_FILES} ${SOURCE_FILES})
