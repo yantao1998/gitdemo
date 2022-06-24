@@ -1,11 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 project(base CXX C)
 
-set(HEADER_FILES
-    "${GME_DEPS_DIR}/acis/include/option.hxx"
-    "${GME_DEPS_DIR}/acis/include/base.hxx"
-    "${GME_DEPS_DIR}/acis/include/err_info_base.hxx"
-    "${GME_DEPS_DIR}/acis/include/err_info_base_list.hxx"
+set(HEADER_FILES"
     "${GME_DEPS_DIR}/acis/include/mmgr.hxx"
     "${GME_DEPS_DIR}/acis/include/err_info_list.hxx"
     "${GME_DEPS_DIR}/acis/include/mmgr_dbg.hxx"
